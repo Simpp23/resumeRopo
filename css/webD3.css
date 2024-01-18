@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;900&display=swap');
+/*html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*-----------------------Start header ----------------------------*/
+header {
+    background-color: #6B6C6C;
+    
+    
+}
+
+nav {
+    color: #ffffff;
+    display: flex;
+
+    /* background-color: rgb(225, 0, 255); */
+    width: 1100px;
+    height: 48px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    
+
+}
+
+.manu {
+    display: flex;
+    font-size: 18px;
+
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+ 
+/*-----------------------Start Section Hero ----------------------------*/
+
+.hero {
+/* background-color: blanchedalmond; */
+width: 1100px;
+margin: auto;
+display:flex ;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.hero-text-box{
+    color: #ffffff;
+    
+
+}
+
+.hero-button{
+    display: flex;
+
+}
+
+.hero-bt-getStarted{
+    background-color: #3B9882;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin-right: 20px;    
+
+}
+
+.hero-bt-watch{
+    display: flex;
+    align-items: center ;
+    gap: 4px;
+
+}
+
+.hero-image{
+    
+    
+
+}
+
+/* ------End Hero------- */
